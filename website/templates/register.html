@@ -10,7 +10,24 @@
 <form method="POST" action="">
     {% csrf_token %}
 
-    {{ form.as_p }}
+    <!-- This code block in the HTML template is checking if there are any errors in the form submission.
+	If there are errors, it will display an alert message with a warning style indicating that the
+	form has errors. It then iterates over each field in the form and if that field has errors, it
+	will display those errors. Finally, it includes a button to close the alert message. This is a
+	common way to provide feedback to users when there are validation errors in a form submission. -->
+	{% if form.errors %}
+			<div class="alert alert-warning alert-dismissible fade show" role="alert">
+			  Your Form Has Errors
+			  {% for field in form %}
+			  	{% if field.errors %}
+			  		{{ field.errors }}
+			  	{% endif %}
+			  {% endfor %}
+			  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+			</div>
+	{% endif %}
+        
+	{{ form.as_p }}
 
     <br/>
     <button type="submit" class="btn btn-secondary">Register</button>
