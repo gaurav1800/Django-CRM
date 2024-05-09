@@ -19,3 +19,30 @@ Welcome to my Django CRM (Customer Relationship Management) website! This web ap
 **Admin login credentials as of now:**
 * Username: admin
 * Password: password123
+
+**Loaded web pages**
+
+* Login Page
+![login page](https://github.com/gaurav1800/Django-CRM/assets/20189086/92b66c5d-3276-4254-8bc1-77ef80746bc0)
+
+* records page
+![records page](https://github.com/gaurav1800/Django-CRM/assets/20189086/53fed0ef-7304-417a-8cde-58b0e2aa957b)
+
+* Add record page
+![Add record page](https://github.com/gaurav1800/Django-CRM/assets/20189086/69b58d72-164e-4fdb-930e-80658f094889)
+
+* Record added page
+![record added page](https://github.com/gaurav1800/Django-CRM/assets/20189086/83fd08e8-d7cb-4db1-b640-ff9a9ce3471d)
+
+* Show record page
+![show record page](https://github.com/gaurav1800/Django-CRM/assets/20189086/f49ebf13-a070-4fd3-bf93-106edcf7278e)
+
+* Update record page
+![update record page](https://github.com/gaurav1800/Django-CRM/assets/20189086/dc3b34da-bd1e-46e9-bfc9-4be5fec8c9f0)
+
+* Record deleted page
+![record deleted page](https://github.com/gaurav1800/Django-CRM/assets/20189086/90800851-7e52-4566-9a40-03ae8f2208c5)
+
+
+
+
