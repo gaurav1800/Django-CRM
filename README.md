@@ -1,4 +1,4 @@
-**Customer Relationship Management System made with Django**
+# Customer Relationship Management System made with Django
 
 Welcome to my Django CRM (Customer Relationship Management) website! This web application is designed to help businesses manage their interactions with current and potential customers. It provides functionalities such as user registration, authentication, and CRUD operations (Create, Read, Update, Delete) for managing customer records.
 
